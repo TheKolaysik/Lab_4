@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h>
+#include <math.h>
 
 
 void main() {
@@ -16,6 +17,6 @@ void main() {
 	system("pause");
 	printf("%c\n", c);
 	printf("%d\n", i);
-	printf("%f\n", f);
+	printf("%.f\n%f\n", f, (f - (int)f));
 	printf("%le", d);
 }
