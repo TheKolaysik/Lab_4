@@ -15,8 +15,8 @@ void main() {
 	scanf("%f", &f);
 	scanf("%le", &d);
 	system("pause");
-	printf("%c\n", c);
-	printf("%d\n", i);
+	printf("%c\t%i\t%x\n", c, c, c);
+	printf("%d\t%f\n", i, 1. / i);
 	printf("%.f\n%f\n", f, (f - (int)f));
 	printf("%le", d);
 }
