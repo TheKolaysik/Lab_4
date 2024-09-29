@@ -6,6 +6,10 @@
 
 void main() {
 	setlocale(LC_ALL, "RUS");
-	int a = 11, b = 3;
-	printf("%d\t%f\t%le\n", (int)a/b , (float)a/b, (double)a/b);
+	int us_int, one, two, three;
+	scanf("%d", &us_int);
+	one = us_int / 100;
+	two = (us_int % 100) / 10;
+	three = us_int % 100 % 10;
+	printf("Последняя цифра - %d\nПервая цифра - %d\nСумма цифр - %d\nОбратное - %d%d%d", three, one, one + two + three, three, two, one);
 }
