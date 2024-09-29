@@ -6,17 +6,12 @@
 
 void main() {
 	setlocale(LC_ALL, "RUS");
-	char c;
-	int i;
-	float f;
-	double d;
-	scanf("%c", &c);
-	scanf("%d", &i);
-	scanf("%f", &f);
-	scanf("%le", &d);
-	system("pause");
-	printf("%c\t%i\t%x\n", c, c, c);
-	printf("%d\t%f\n", i, 1. / i);
-	printf("%.f\n%f\n", f, (f - (int)f));
-	printf("%le", d);
+	int a = 11, b = 3;
+	int x;
+	float y;
+	double z;
+	x = a / b;
+	y = a / b;
+	z = a / b;
+	printf("%d\t%f\t%le\n", x, y, z);
 }
